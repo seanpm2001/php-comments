@@ -10,7 +10,10 @@
     }
   ],
   "require": {
-    "tantek/cassis": "dev-master#028a460ae003a46059c765fa6d4246b1c2ff5d97"
+    "tantek/cassis": "^0.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.5"
   },
   "autoload": {
     "files": [

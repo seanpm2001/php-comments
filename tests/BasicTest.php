@@ -1,5 +1,5 @@
 <?php
-class BasicTest extends PHPUnit_Framework_TestCase {
+class BasicTest extends \PHPUnit\Framework\TestCase {
 
   private function loadFile($fn) {
     return json_decode(file_get_contents(dirname(__FILE__).'/data/'.$fn), true);
